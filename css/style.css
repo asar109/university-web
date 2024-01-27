@@ -1,0 +1,615 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Headland+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* $$$$$$$$$$$$$$$$$$$$$$$ utility classes $$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+.container {
+  padding: 1em;
+  margin: 0em 5em;
+}
+.bg-color-blue {
+  background-color: #00baf2e3;
+}
+.bg-color-silver {
+  background-color: silver;
+}
+.row-heading {
+  text-align: center;
+  margin: 5rem 0rem;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+.active-nav {
+  color: #00baf2;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@  styling   $$$$$$$$$$$$$$$$$$$$$$$$$$ */
+html {
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 1.6rem;
+}
+h1 {
+  font-size: 3.2rem;
+}
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+.header {
+  width: 100%;
+  height: 95vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+nav {
+  display: flex;
+  padding: 1em 3em;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 20rem;
+}
+.nav-bar-items {
+  flex: 1;
+  text-align: right;
+}
+.nav-bar-item {
+  list-style: none;
+  display: inline-flex;
+  padding: 1em;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.nav-bar-item a::after {
+  content: "";
+  width: 0%;
+  height: 0.3rem;
+  margin: auto;
+  background-color: rgba(215, 224, 231, 0.801);
+  display: block;
+  transition: all 500ms;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+}
+.nav-bar-item a:hover::after {
+  width: 100%;
+}
+.content-box {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  margin-top: 8em;
+}
+.content-box h1 pre {
+  font-size: 4.4rem;
+  margin: 0.5em 0em;
+}
+.content-box p {
+  font-size: 1.7rem;
+  margin-top: 1em;
+}
+.content-box a {
+  margin: 0em auto;
+  width: 50%;
+  display: block;
+  padding: 1em;
+  margin-top: 3em;
+  text-decoration: solid;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0.05rem solid white;
+  transition: 500ms ease-in-out;
+  -webkit-transition: 500ms ease-in-out;
+  -moz-transition: 500ms ease-in-out;
+  -ms-transition: 500ms ease-in-out;
+  -o-transition: 500ms ease-in-out;
+}
+.content-box a:hover {
+  background-color: #00baf2e3;
+}
+.nav-bar-items i:hover {
+  color: #00baf2e3;
+}
+
+/* ################# we offer section syling ############## */
+
+section.we-offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: silver;
+  padding: 10rem;
+  box-shadow: 0 0 1px 0px #00baf2e3;
+}
+.we-offer-content {
+  width: 30%;
+  height: 100%;
+  margin: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(253, 253, 253, 0.199);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: all 500ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.we-offer-content p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #555;
+  
+}
+.we-offer-content h1 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: rgb(0, 0, 0);
+}
+
+.we-offer-content:hover {
+  color: rgb(66, 62, 62);
+  box-shadow: 0 0 10px -2px #00baf2e3;
+}
+.we-offer-content::after {
+  content: "";
+  display: block;
+  width: 0%;
+  margin: 0.5rem auto;
+  height: 0.3rem;
+  background-color: #00baf2e3;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.we-offer-content h1::after {
+  content: "";
+  display: block;
+  width: 80%;
+  margin: 0.5rem auto;
+  height: 0.3rem;
+  background-color: #00baf2e3;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.we-offer-content:hover::after {
+  width: 90%;
+}
+.we-offer-heading {
+  text-align: center;
+  padding: 0.5rem;
+  margin: 5rem auto;
+  text-transform: uppercase;
+  align-self: center;
+}
+.intermediate {
+  flex-basis: 33.34%;
+  z-index: 1;
+}
+.post-gratuate {
+  flex-basis: 33.34%;
+  z-index: 3;
+}
+.mastsers {
+  flex-basis: 33.34%;
+  z-index: 2;
+}
+.we-offer pre h1 {
+  flex-basis: 15%;
+  color: rebeccapurple;
+  display: inline;
+}
+/* $$$$$$$$$$$$$$$$$$$     facilities box syling #################### */
+.facilities-boxes {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10rem;
+  text-align: center;
+}
+.facility-img-box img {
+  width: 350px;
+  height: 600px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.facility-box {
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  margin: 0.5rem;
+}
+.facility-img-box img:hover {
+  box-shadow: 0 0 10px 1px #00baf2e3;
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+
+/* ############### Tastimonial styling ################## */
+.testimonial-header {
+  text-align: center;
+  display: block;
+  margin: 5rem auto;
+  text-transform: uppercase;
+}
+.testimonial-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+.testimonial-col {
+  padding: 1rem;
+  margin: 0rem 4rem;
+  border: 0.5px solid black;
+  background-color: #fff3f3;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.testimonial-col img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+}
+.testimonial-col i {
+  color: #02222cf8;
+}
+.testimonial-col div {
+  padding: 1rem 2rem;
+}
+.testimonial-col:hover {
+  box-shadow: 0px 0px 10px 1px #00baf2e3;
+}
+/* ##################### join us banner styling ############# */
+
+section.join-us {
+  width: 90%;
+  height: 45rem;
+  margin: 6rem auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/join-us-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+section.join-us:hover {
+  box-shadow: 0px 0px 10px 1px #00baf2e3;
+}
+.join-us a {
+  padding: 2rem;
+  border: 1px solid #ffffffe3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+}
+.join-us a:hover {
+  background-color: #00baf2e3;
+}
+.join-us h1 {
+  color: white;
+  text-align: center;
+  padding: 10rem;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ############### footer section styling ################ */
+footer.footer-section {
+  margin-top: 5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.footer-section a {
+  color: black;
+}
+.social-media-links {
+  text-align: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.footer-section i {
+  margin: 2rem 1rem;
+}
+.copyright-box {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.footer-section a:hover {
+  color: #00baf2e3;
+}
+.copyright-box p {
+  text-transform: uppercase;
+}
+
+/* ######################      about- us page styling ############### */
+
+header .about-us-page-heading {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+.header-2 {
+  width: 100%;
+  height: 40vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../images/short-background.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.map {
+  width: 90%;
+  height: 50rem;
+  margin: 9rem auto;
+  padding: 0rem;
+}
+.map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* #################      about- us content styling ############### */
+main.about-us-content {
+  display: block;
+  width: 70%;
+  height: 100%;
+  margin-top: 3rem;
+  margin-left: 10rem;
+  margin-top: 3rem;
+  text-align: left;
+}
+main.about-us-content h1 {
+  margin: 1rem;
+  padding: 1rem;
+}
+p::selection,
+h1::selection a::selection {
+  background-color: rgba(0, 0, 0, 0.774);
+  color: white;
+}
+
+/* #####################    fee - schedule  #################### */
+
+table.fee-schdule-table {
+  border: 1px solid black;
+  padding: 1rem;
+  width: 80%;
+  font-size: 2rem;
+  margin: 5rem auto;
+  text-align: center;
+}
+tr {
+  border: 1px solid black;
+}
+td {
+  padding: 2rem;
+}
+tr.col-head {
+  background-color: rgba(216, 91, 1, 0.795);
+}
+td.row-head {
+  background-color: #00baf2ad;
+}
+.fee-schedule-para {
+  padding: 4rem;
+  margin: 5rem;
+}
+
+/* ##################### blog page styling ############## */
+.blog-page {
+  display: flex;
+  justify-content: space-between;
+}
+main.blog-page .blog-left-side {
+  padding: 10rem;
+}
+main.blog-page .blog-left-side h1 {
+  text-align: center;
+  padding: 1rem;
+}
+main.blog-page .blog-left-side p {
+  padding: 1rem;
+}
+.blog-left-side img {
+  width: 80%;
+  padding: 1rem;
+  margin: 5rem auto;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10rem 0rem;
+}
+
+.contact-info .img img {
+  width: 100%;
+  height: 60%;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.contact-info .info {
+  padding: 5rem 5rem;
+  width: 65rem;
+}
+.contact-info .info .info-box {
+  width: 100%;
+}
+.contact-info .img {
+  width: 65rem;
+  padding: 5rem;
+}
+.contact-info .info .info-box {
+  margin: 1.5rem;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+.contact-info .info .info-box h1 {
+  margin-bottom: 0.5rem;
+}
+.info-box::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: #00baf2;
+  display: block;
+  margin: 0.5rem auto;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.contact-info .info .info-box h2 {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.info-box:hover::after {
+  width: 50%;
+}
+.contact-info .img img:hover {
+  box-shadow: 0px 0px 10px 1px #00baf2ea;
+}
+
+/* ########### contact form  styling ################ */
+
+.form-heading {
+  text-align: center;
+}
+
+.contact-form {
+  padding: 1rem;
+  margin: 5rem 10rem;
+  text-align: center;
+}
+.contact-form div label,
+.contact-form div h2 {
+  font-size: 2rem;
+}
+.contact-form div input {
+  width: 39%;
+  margin: 1rem 1rem 0px 0px;
+  height: 3rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+.contact-form div textarea {
+  width: 50%;
+  margin: 1rem;
+  height: 35rem;
+  padding: 1rem;
+}
+.contact-form div h2 {
+  margin-top: 0.5rem;
+}
+input[type="submit"] {
+  padding: 1.5rem;
+  background-color: #00baf2;
+  border: 1px solid rgb(68, 68, 68);
+  color: white;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+input[type="submit"]:hover {
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+}
+hr .before-foooter {
+  margin-bottom: -1rem;
+}

@@ -1,0 +1,312 @@
+/* ###########################  Media quaris   ##################### */
+
+
+@media(max-width:400px){
+     html{
+          font-size: 50%;
+     }
+     h1{
+          font-size: 15px;
+     }
+     .content-box h1 pre {
+          font-size: 2.4rem;
+          margin: .5em 0em;
+     }
+     .container{
+          display: block;
+          text-align: center;
+     }
+     .nav-bar-items{
+          text-align: center;
+     }
+     .nav-bar-items .nav-bar-item{
+          font-size: 45%;
+     }
+     section.we-offer{
+          padding: 0.5rem;
+          flex-direction: column;
+     }
+     .we-offer-content{
+          width: 95%;
+     }
+     .facilities-boxes{
+          flex-direction: column;
+          padding: 4px;
+     }
+     .facility-img-box img{
+          width: 100%;
+          height: 100%;
+
+     }
+     .facility-content-box , .facility-img-box img{
+          margin: 1rem 0rem;
+     }
+     .testimonial-row{
+          display: flex;
+          flex-direction: column;
+     }
+     .testimonial-col{
+          margin: 1rem;
+     }
+     .testimonial-header{
+          padding: 0rem;
+          margin: 4rem;
+     }
+     table tr td{
+          padding: 1rem;
+          font-size: 1rem;
+     }
+     .contact-form div input{
+          width: 100%;
+     }
+     .contact-form {
+          padding: 1rem;
+          margin: 0rem 1rem;
+          text-align: center;
+      }
+
+     .contact-info{
+          flex-direction: column;
+     }
+     .contact-info .info .info-box {
+          margin: 1.5rem;
+          padding: 1rem 2rem;
+          text-align: center;
+      }
+      .contact-info .img img{
+          width: 100%;
+          height: 60%;
+          transition: all 0.5s ease-in-out;
+          -webkit-transition: all 0.5s ease-in-out;
+          -moz-transition: all 0.5s ease-in-out;
+          -ms-transition: all 0.5s ease-in-out;
+          -o-transition: all 0.5s ease-in-out;
+          display: none;
+     }
+     .contact-info .info {
+          padding: 0rem 0rem;
+          width: 65rem;
+     }
+     .contact-form div textarea{
+          width: 100%;
+     }
+     .contact-info .img{
+          display: none;
+     }
+
+}
+
+@media(min-width:401px) and (max-width:700px){
+     html{
+          font-size: 60%;
+     }
+     h1{
+          font-size: 15px;
+     }
+     .content-box h1 pre {
+          font-size: 2.4rem;
+          margin: .5em 0em;
+     }
+     .container{
+          display: block;
+          text-align: center;
+     }
+     .nav-bar-items{
+          text-align: center;
+     }
+     .nav-bar-items .nav-bar-item{
+          font-size: 45%;
+     }
+     section.we-offer{
+          padding: 0.5rem;
+          flex-direction: column;
+     }
+     .we-offer-content{
+          width: 95%;
+     }
+     .facilities-boxes{
+          flex-direction: column;
+          padding: 4px;
+     }
+     .facility-img-box img{
+          width: 100%;
+          height: 100%;
+
+     }
+     .facility-content-box , .facility-img-box img{
+          margin: 1rem 0rem;
+     }
+     .testimonial-row{
+          display: flex;
+          flex-direction: column;
+     }
+     .testimonial-col{
+          margin: 1rem;
+     }
+     .testimonial-header{
+          padding: 0rem;
+          margin: 4rem;
+     }
+     table tr td{
+          padding: 1rem;
+          font-size: 1rem;
+     }
+     .contact-form div input{
+          width: 100%;
+     }
+     .contact-form {
+          padding: 1rem;
+          margin: 0rem 1rem;
+          text-align: center;
+      }
+
+     .contact-info{
+          flex-direction: column;
+     }
+     .contact-info .info .info-box {
+          margin: 1.5rem;
+          padding: 1rem 2rem;
+          text-align: center;
+      }
+      .contact-info .img img{
+          width: 100%;
+          height: 60%;
+          transition: all 0.5s ease-in-out;
+          -webkit-transition: all 0.5s ease-in-out;
+          -moz-transition: all 0.5s ease-in-out;
+          -ms-transition: all 0.5s ease-in-out;
+          -o-transition: all 0.5s ease-in-out;
+          display: none;
+     }
+     .contact-info .info {
+          padding: 0rem 0rem;
+          width: 65rem;
+     }
+     .contact-form div textarea{
+          width: 100%;
+     }
+     .contact-info .img{
+          display: none;
+     }
+}
+
+
+
+
+
+@media(min-width:701px) and (max-width:1030px){
+     html{
+          font-size: 70%;
+     }
+     h1{
+          font-size: 17px;
+     }
+     .content-box h1 pre {
+          font-size: 2.4rem;
+          margin: .5em 0em;
+     }
+     .container{
+          display: block;
+          text-align: center;
+     }
+     .nav-bar-items{
+          text-align: center;
+     }
+     .nav-bar-items .nav-bar-item{
+          font-size: 45%;
+     }
+     section.we-offer{
+          padding: 0.5rem;
+          flex-direction: column;
+     }
+     .we-offer-content{
+          width: 95%;
+     }
+     .facilities-boxes{
+          flex-direction: column;
+          padding: 4px;
+     }
+     .facility-img-box img{
+          width: 100%;
+          height: 100%;
+
+     }
+     .facility-content-box , .facility-img-box img{
+          margin: 1rem 0rem;
+     }
+     .testimonial-row{
+          display: flex;
+          flex-direction: column;
+     }
+     .testimonial-col{
+          margin: 1rem;
+     }
+     .testimonial-header{
+          padding: 0rem;
+          margin: 4rem;
+     }
+     table tr td{
+          padding: 1rem;
+          font-size: 1.2rem;
+     }
+     .contact-form div input{
+          width: 80%;
+     }
+     .contact-form {
+          padding: 1rem;
+          margin: 0rem 1rem;
+          text-align: center;
+      }
+
+     .contact-info{
+          flex-direction: column;
+     }
+     .contact-info .info .info-box {
+          margin: 1.5rem;
+          padding: 1rem 2rem;
+          text-align: center;
+      }
+      .contact-info .img img{
+          width: 100%;
+          height: 60%;
+          transition: all 0.5s ease-in-out;
+          -webkit-transition: all 0.5s ease-in-out;
+          -moz-transition: all 0.5s ease-in-out;
+          -ms-transition: all 0.5s ease-in-out;
+          -o-transition: all 0.5s ease-in-out;
+          display: none;
+     }
+     .contact-info .info {
+          padding: 0rem 0rem;
+          width: 65rem;
+     }
+     .contact-form div textarea{
+          width: 100%;
+     }
+     .contact-info .img{
+          display: none;
+     }
+
+}
+
+
+
+
+@media(min-width:1031px) and (max-width:1250px){
+     .facilities-boxes{
+          flex-direction: column;
+          padding: 4px;
+     }
+     .facility-img-box img{
+          width: 100%;
+          height: 100%;
+
+     }
+     .facility-content-box , .facility-img-box img{
+          margin: 1rem 0rem;
+     }
+}
+
+
+
+
